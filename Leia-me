@@ -1,11 +1,6 @@
 # Curso de Git e Github
 
-Comandos básicos do Git
+Nesse curso será abordados todos os comandos para utilização de versionamento de um projeto utilizando o Git.
 
-git config -- global 
-git status
-git add nome-arquivo
-git diff
-git commit
-git reset --  -- mised --hard
+O repositório remoto utilizado nesse curso será o Github. Também veremos como fazer upload de arquivos para o github atraves do versionamento do git.
 
