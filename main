@@ -1,1 +1,20 @@
 # Este Arquivo será o arquivo principal para teste no Git
+
+Comandos do Git
+
+Configurando o Git
+
+git config --global user.name "nome" 	# Atribui o nome a configuração do git
+git config --global user.email "email" 	# Atribui o email a configuração do git
+git config --global core.editor  subl 	# Atribui o editor de texto utilizado pelo git
+
+Verificações de status 
+
+git status
+git show
+git log
+git diff
+
+Adicionando novos arquivos e modificações
+
+git add [arquivo]
