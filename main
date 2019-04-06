@@ -12,6 +12,7 @@ Verificações de status
 
 git branch 		
 git status
+git log --graph
 git show
 git log
 git diff
