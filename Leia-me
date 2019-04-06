@@ -1,0 +1,11 @@
+# Curso de Git e Github
+
+Comandos básicos do Git
+
+git config -- global 
+git status
+git add nome-arquivo
+git diff
+git commit
+git reset --  -- mised --hard
+
