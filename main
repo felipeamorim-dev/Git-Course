@@ -40,5 +40,5 @@ git clone https://github.com/felipeamorim-dev/Git-Course.git git-clone	# Comando
 
 git checkout -b [nome do novo branch] 	# Cria novos branches
 git checkout [branch]					# Move-se entre branches 
-git branch -D []nume do branch]			# Remove o branch do repositório
+git branch -D [nome do branch]			# Remove o branch do repositório
 git merge [branch a ser unido]			# une o branch atual com o setado por referencia
