@@ -33,3 +33,7 @@ git push origin master
 Adicionando o mesmo repositório em outras maquinas
 
 git clone https://github.com/felipeamorim-dev/Git-Course.git git-clone	# Comando utilizado para criar uma copia do repositório do github na pasta git-clone
+
+Adicionando novos branches
+
+git checkout -b [nome do novo branch]
