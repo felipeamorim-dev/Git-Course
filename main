@@ -35,6 +35,8 @@ Adicionando o mesmo repositório em outras maquinas
 
 git clone https://github.com/felipeamorim-dev/Git-Course.git git-clone	# Comando utilizado para criar uma copia do repositório do github na pasta git-clone
 
-Adicionando novos branches
+-- branch -- 
 
-git checkout -b [nome do novo branch]
+git checkout -b [nome do novo branch] 	# Cria novos branches
+git checkout [nome do branch]			# Move-se entre branches 
+git branch -D []nume do branch]			# Remove o branch do repositório
