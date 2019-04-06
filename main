@@ -18,3 +18,14 @@ git diff
 Adicionando novos arquivos e modificações
 
 git add [arquivo]
+
+Removendo commits anteriores
+
+git reset HEAD [arquivo]	# Remove do state o arquivo atual.
+git reset --soft			# Volta os arquivos antes dos states (utilizar uma key anterior do commit)
+git reset --mixed 			# Volta o arquivo para o estado HEAD, ou seja, pronto para para um commit
+git reset --hard			# Remove o commit de forma bruta (todas as modificações removidas)
+
+Adicionando ao GitHub 
+
+git push origin master
