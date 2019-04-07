@@ -48,3 +48,4 @@ git merge [branch a ser unido]			# une o branch atual com o setado por referenci
 
 git tag -a [numero da versão] -m "mensagem" # Cria uma tag para o estado atual dos arquivos no Git, exemplo: git tag -a 1.0.0 -m "Versão base"
 git push origin master --tags               # Upload para o github das tags criadas para o estado atual dos arquivos
+git tag                                     # Exibe as tags existentes
