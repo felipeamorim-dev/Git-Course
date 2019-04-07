@@ -7,6 +7,7 @@ Configurando o Git
 git config --global user.name "nome" 	# Atribui o nome a configuração do git
 git config --global user.email "email" 	# Atribui o email a configuração do git
 git config --global core.editor  subl 	# Atribui o editor de texto utilizado pelo git
+git config --global alias.s status      # Cria o atalho para o git s para o git status. O comando alias                                  referencia um atalho para um comando no arquivo de configuração.
 
 Verificações de status 
 
