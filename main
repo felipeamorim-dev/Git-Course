@@ -14,7 +14,7 @@ Verificações de status
 git branch 		
 git status
 git log --graph
-git show
+git show [key do commit a verificar]
 git log
 git diff
 
@@ -28,6 +28,7 @@ git reset HEAD [arquivo]	# Remove do state o arquivo atual.
 git reset --soft			# Volta os arquivos antes dos states (utilizar uma key anterior do commit)
 git reset --mixed 			# Volta o arquivo para o estado HEAD, ou seja, pronto para para um commit
 git reset --hard			# Remove o commit de forma bruta (todas as modificações removidas)
+git revert [key do commit a ser revertido] # Apaga as modificações não desejadas sem apagar o historico.
 
 Adicionando ao GitHub 
 
@@ -49,3 +50,4 @@ git merge [branch a ser unido]			# une o branch atual com o setado por referenci
 git tag -a [numero da versão] -m "mensagem" # Cria uma tag para o estado atual dos arquivos no Git, exemplo: git tag -a 1.0.0 -m "Versão base"
 git push origin master --tags               # Upload para o github das tags criadas para o estado atual dos arquivos
 git tag                                     # Exibe as tags existentes
+git tag -d [tag]                            # Deleta a tag do git
